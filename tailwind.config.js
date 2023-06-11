@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'logo_morado': '#AF2389',
+        'tema_morado': '#AF2389',
+        'tema_morado_hover': '#961F77',
       }
     },
   },

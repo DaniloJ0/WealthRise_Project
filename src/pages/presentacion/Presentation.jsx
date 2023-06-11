@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "../../components/navbar/Navbar";
+import PresentationContent from "../../components/presentation_content/PresentationContent";
+import Footer from "../../components/footer/Footer";
 
 function Presentation() {
   return (
     <>
-      <div className="">Presentation</div>
+     <Navbar />
+     <PresentationContent />
+     <Footer />
     </>
   );
 }
