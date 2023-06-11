@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Presentation from "./pages/presentacion/Presentation";
-
+import "../src/css/main.css"
 function App() {
   return (
     <Router>
